@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>RollEu</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  </head>
+  </head>
+  <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .topnav {
+      overflow: hidden;
+      background-color: #ffffff;
+    }
+    .logo{
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+    .topnav a {
+      text-align: left;
+      float: right;
+      display: block;
+      color: #000000;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    .topnav li a {
+      text-align: left;
+      float: left;
+      display: block;
+      color: #000000;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    .topnav a ul {
+      text-align: left;
+    }
+    
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .topnav a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+    
+    .topnav .icon {
+      display: none;
+    }
+    
+    @media screen and (max-width: 600px) {
+      .topnav a:not(:first-child) {display: none;}
+      .topnav a.icon {
+        float: right;
+        display: block;
+      }
+    }
+    
+    @media screen and (max-width: 600px) {
+      .topnav.responsive {position: relative;}
+      .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+    }
+    </style>
+    <div class="topnav" id="myTopnav">
+     <img src="imgs/Logo1.png" class="logo">
+      <a href="about.html">Rreth Nesh</a>
+      <a href="main.html">inofrmatat teknike</a>
+      <a href="rrolleu.html">Ekrane Tekstili</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+</div>
+    <div class = "about-wrapper">
+      <div class = "about-left">
+        <div class = "about-left-content">
+          <div>
+            <div class = "shadow">
+              <div class = "about-img"> 
+                <a href="about.html">
+                <img src = "imgs/logo2.jpg" alt = "about image">
+               </a>
+              </div>
+            </div>
+
+            <h2>Rroll<br>Zip</h2>
+            <h3>Company</h3>
+          </div>
+
+          <ul class = "icons">
+            <li><a href="https://www.facebook.com/rugovaresort"><i class = "fab fa-facebook-f"></i></li></a>
+            <li><a href=""><i class = "fab fa-twitter"></i></li>
+            <li><a href=""><i class = "fab fa-linkedin"></i></li>
+            <li><a href="https://www.instagram.com/rugovaresort/"><i class = "fab fa-instagram"></i></li></a>
+          </ul>
+        </div>
+      </div>
+
+      <div class = "about-right">
+        <h1>Rrol<span>l</span></h1>
+        
+
+        <div class = "about-para">
+          <p></p>
+          <p>Ekranet e tekstilit RROLL do t'ju fitojnë me veçoritë e tyre të pakrahasueshme të produktit. Kjo përfshin mbrojtje pothuajse të përsosur nga dielli dhe nxehtësia, si dhe rezistencën ndaj motit dhe një dizajn modern. Ju gjithashtu mund të vendosni se sa shumë mund të shohin njerëzit brenda dhe sa mund të shihni jashtë.</p>
+          <div class = "about-btns">
+            <a href="about.html"><button type = "button" class = "btn btn-skyblue">Shiko Me Shume</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </body>
+</html>
+
+</head>
+<body>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+</body>
+</html>
